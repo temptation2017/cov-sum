@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN" "report.dtd">
+<report name="shop-core">
+  <package name="com/example/shop">
+    <sourcefile name="OrderService.java">
+      <line nr="10" mi="0" ci="4" mb="0" cb="0"/>
+      <line nr="11" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="12" mi="0" ci="6" mb="0" cb="2"/>
+      <line nr="13" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="14" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="15" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="16" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="17" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="18" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="21" mi="4" ci="0" mb="2" cb="0"/>
+      <line nr="22" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="23" mi="2" ci="0" mb="0" cb="0"/>
+      <line nr="24" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="40" mi="5" ci="0" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="14" covered="27"/>
+      <counter type="BRANCH" missed="2" covered="2"/>
+      <counter type="LINE" missed="4" covered="10"/>
+      <counter type="METHOD" missed="1" covered="3"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+    <sourcefile name="Cart.java">
+      <line nr="5" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="6" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="7" mi="0" ci="4" mb="0" cb="2"/>
+      <line nr="8" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="9" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="10" mi="0" ci="3" mb="0" cb="2"/>
+      <line nr="11" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="12" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="13" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="14" mi="0" ci="3" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="0" covered="30"/>
+      <counter type="BRANCH" missed="0" covered="4"/>
+      <counter type="LINE" missed="0" covered="10"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+    <counter type="INSTRUCTION" missed="14" covered="57"/>
+    <counter type="BRANCH" missed="2" covered="6"/>
+    <counter type="LINE" missed="4" covered="20"/>
+    <counter type="METHOD" missed="1" covered="5"/>
+  </package>
+  <package name="com/example/shop/util">
+    <sourcefile name="Ids.java">
+      <line nr="3" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="4" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="5" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="6" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="7" mi="0" ci="2" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="0" covered="12"/>
+      <counter type="LINE" missed="0" covered="5"/>
+      <counter type="METHOD" missed="0" covered="2"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+  </package>
+  <package name="com/example/shop/web">
+    <sourcefile name="OrderController.java">
+      <line nr="8" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="9" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="10" mi="0" ci="4" mb="0" cb="1"/>
+      <line nr="11" mi="0" ci="3" mb="0" cb="0"/>
+      <line nr="12" mi="0" ci="2" mb="0" cb="0"/>
+      <line nr="13" mi="4" ci="0" mb="2" cb="0"/>
+      <line nr="14" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="15" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="16" mi="4" ci="0" mb="2" cb="0"/>
+      <line nr="17" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="18" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="19" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="20" mi="4" ci="0" mb="1" cb="0"/>
+      <line nr="21" mi="3" ci="0" mb="0" cb="0"/>
+      <line nr="22" mi="2" ci="0" mb="0" cb="0"/>
+      <counter type="INSTRUCTION" missed="32" covered="15"/>
+      <counter type="BRANCH" missed="5" covered="1"/>
+      <counter type="LINE" missed="10" covered="5"/>
+      <counter type="METHOD" missed="2" covered="1"/>
+      <counter type="CLASS" missed="0" covered="1"/>
+    </sourcefile>
+  </package>
+  <counter type="INSTRUCTION" missed="46" covered="84"/>
+  <counter type="BRANCH" missed="7" covered="7"/>
+  <counter type="LINE" missed="14" covered="30"/>
+  <counter type="METHOD" missed="3" covered="8"/>
+  <counter type="CLASS" missed="0" covered="4"/>
+</report>

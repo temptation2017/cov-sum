@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<coverage line-rate="0.6818" branch-rate="0.5" lines-covered="30" lines-valid="44" branches-covered="7" branches-valid="14" timestamp="1730000000" version="2.1.1">
+  <sources>
+    <source>src/main/java</source>
+  </sources>
+  <packages>
+    <package name="com.example.shop" line-rate="0.8333" branch-rate="0.75">
+      <classes>
+        <class name="com.example.shop.OrderService" filename="com/example/shop/OrderService.java" line-rate="0.7143" branch-rate="0.5">
+          <methods>
+            <method name="place" signature="(Ljava/lang/String;I)V" line-rate="0.8" branch-rate="1.0">
+              <lines>
+                <line number="10" hits="4"/>
+                <line number="11" hits="3"/>
+                <line number="12" hits="6" branch="true" condition-coverage="100% (2/2)"/>
+                <line number="13" hits="2"/>
+                <line number="14" hits="2"/>
+              </lines>
+            </method>
+            <method name="cancel" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+              <lines>
+                <line number="15" hits="2"/>
+                <line number="16" hits="2"/>
+                <line number="17" hits="2"/>
+                <line number="18" hits="2"/>
+              </lines>
+            </method>
+            <method name="rejectNegative" signature="(I)V" line-rate="0.25" branch-rate="0.0">
+              <lines>
+                <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+                <line number="22" hits="0"/>
+                <line number="23" hits="0"/>
+                <line number="24" hits="2"/>
+              </lines>
+            </method>
+            <method name="audit" signature="()V" line-rate="0.0" branch-rate="1.0">
+              <lines>
+                <line number="40" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="4"/>
+            <line number="11" hits="3"/>
+            <line number="12" hits="6" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="13" hits="2"/>
+            <line number="14" hits="2"/>
+            <line number="15" hits="2"/>
+            <line number="16" hits="2"/>
+            <line number="17" hits="2"/>
+            <line number="18" hits="2"/>
+            <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="22" hits="0"/>
+            <line number="23" hits="0"/>
+            <line number="24" hits="2"/>
+            <line number="40" hits="0"/>
+          </lines>
+        </class>
+        <class name="com.example.shop.Cart" filename="com/example/shop/Cart.java" line-rate="1.0" branch-rate="1.0">
+          <methods>
+            <method name="add" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0">
+              <lines>
+                <line number="5" hits="3"/>
+                <line number="6" hits="3"/>
+                <line number="7" hits="4" branch="true" condition-coverage="100% (2/2)"/>
+                <line number="8" hits="3"/>
+                <line number="9" hits="3"/>
+              </lines>
+            </method>
+            <method name="clear" signature="()V" line-rate="1.0" branch-rate="1.0">
+              <lines>
+                <line number="10" hits="3" branch="true" condition-coverage="100% (2/2)"/>
+                <line number="11" hits="3"/>
+                <line number="12" hits="3"/>
+                <line number="13" hits="2"/>
+                <line number="14" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="3"/>
+            <line number="6" hits="3"/>
+            <line number="7" hits="4" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="8" hits="3"/>
+            <line number="9" hits="3"/>
+            <line number="10" hits="3" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="11" hits="3"/>
+            <line number="12" hits="3"/>
+            <line number="13" hits="2"/>
+            <line number="14" hits="3"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="com.example.shop.util" line-rate="1.0" branch-rate="1.0">
+      <classes>
+        <class name="com.example.shop.util.Ids" filename="com/example/shop/util/Ids.java" line-rate="1.0" branch-rate="1.0">
+          <methods>
+            <method name="newId" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+              <lines>
+                <line number="3" hits="2"/>
+                <line number="4" hits="3"/>
+                <line number="5" hits="2"/>
+              </lines>
+            </method>
+            <method name="normalize" signature="(Ljava/lang/String;)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+              <lines>
+                <line number="6" hits="3"/>
+                <line number="7" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="2"/>
+            <line number="4" hits="3"/>
+            <line number="5" hits="2"/>
+            <line number="6" hits="3"/>
+            <line number="7" hits="2"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="com.example.shop.web" line-rate="0.3333" branch-rate="0.1667">
+      <classes>
+        <class name="com.example.shop.web.OrderController" filename="com/example/shop/web/OrderController.java" line-rate="0.3333" branch-rate="0.1667">
+          <methods>
+            <method name="create" signature="()V" line-rate="1.0" branch-rate="0.5">
+              <lines>
+                <line number="8" hits="3"/>
+                <line number="9" hits="3"/>
+                <line number="10" hits="4" branch="true" condition-coverage="50% (1/2)"/>
+                <line number="11" hits="3"/>
+                <line number="12" hits="2"/>
+              </lines>
+            </method>
+            <method name="update" signature="()V" line-rate="0.0" branch-rate="0.0">
+              <lines>
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+                <line number="14" hits="0"/>
+                <line number="15" hits="0"/>
+                <line number="16" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+                <line number="17" hits="0"/>
+              </lines>
+            </method>
+            <method name="remove" signature="()V" line-rate="0.0" branch-rate="0.0">
+              <lines>
+                <line number="18" hits="0"/>
+                <line number="19" hits="0"/>
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+                <line number="21" hits="0"/>
+                <line number="22" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3"/>
+            <line number="9" hits="3"/>
+            <line number="10" hits="4" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="11" hits="3"/>
+            <line number="12" hits="2"/>
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="14" hits="0"/>
+            <line number="15" hits="0"/>
+            <line number="16" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="17" hits="0"/>
+            <line number="18" hits="0"/>
+            <line number="19" hits="0"/>
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="21" hits="0"/>
+            <line number="22" hits="0"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<j:report xmlns:j="https://www.jacoco.org/dtd/report/1.1" name="tiny">
+  <j:package name="demo">
+    <j:sourcefile name="Demo.java">
+      <j:line nr="1" mi="0" ci="2" mb="0" cb="0"/>
+      <j:line nr="2" mi="3" ci="0" mb="0" cb="0"/>
+      <j:counter type="LINE" missed="1" covered="1"/>
+      <j:counter type="INSTRUCTION" missed="3" covered="2"/>
+    </j:sourcefile>
+  </j:package>
+</j:report>
